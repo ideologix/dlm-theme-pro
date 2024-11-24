@@ -72,7 +72,7 @@ class DLM_Theme_Activation {
 			echo '<div class="theme-activator">';
 			$this->instance->getActivator()->renderActivationForm();
 			echo '</div>';
-			echo '<style>.theme-activator {background-color: #fff; padding: 10px; max-width: 50%; margin-top: 10px;}'; // Do your styling. This is just a plain form.
+			echo '<style>.theme-activator {background-color: #fff; padding: 10px; max-width: 50%; margin-top: 10px;}</style>'; // Do your styling. This is just a plain form.
 		}
 
 		echo '</div>';
